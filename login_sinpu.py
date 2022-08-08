@@ -1,9 +1,5 @@
-# from curses import pair_content
+
 import os,re,json
-# import re
-# from tokenize import Name
-# from unicodedata import name
-# from click import option, password_option
 
 def file_present(fname):
     if not os.path.exists(fname):
